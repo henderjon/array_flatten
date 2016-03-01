@@ -17,9 +17,9 @@ if(!function_exists("array_flatten")){
 
 			if(is_array($value)){
 				$final = array_flatten($value, $key, $final);
+			}else{
+				$final[$key] = is_scalar($value) ? $value : gettype($value);
 			}
-
-			$final[$key] = is_scalar($value) ? $value : gettype($value);
 
 		}
 		return $final;
