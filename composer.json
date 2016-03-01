@@ -1,5 +1,5 @@
 {
-	"name"        : "henderjon/is_cli",
+	"name"        : "henderjon/array_flatten",
 	"type"        : "library",
 	"description" : "a function to recursively flatten an array",
 	"homepage"    : "http://github.com/henderjon/array_flatten",
